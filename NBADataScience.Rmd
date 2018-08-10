@@ -11,7 +11,7 @@ output:
 The 2 main questions I hoped to answer that motivated me to do this project were:
 
 1. How well I could detect certain clusters of players (superstars, starters, role players, prospects etc.) from the 2017-18 regular season using dimensionality reduction and k-means cluster analysis
-2. How strong of a predictive model I could create to predict an NBA player's position (traditional PG/SG/SF/PF/C) based on per-36 stats, height, weight etc. given that the NBA is transitioning to a more "positionless" league. Also would like to see how strong of a model I could make to predict a binary position classification (guard/wing, big)
+2. How strong of a predictive model I could create to predict an NBA player's position (traditional PG/SG/SF/PF/C) based on per-36 stats,  height, weight etc. given that the NBA is transitioning to a more "positionless" league. Also would like to see how strong of a model I could make to predict a binary position classification (guard/wing, big)
 
 
 
