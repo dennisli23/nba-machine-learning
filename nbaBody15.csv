@@ -1,0 +1,529 @@
+No.,Player,Pos,Ht,Wt,Birth Date,Nationality,Exp,College
+,Jared Cunningham,,6/4,195,,us,3,
+,Matthew Dellavedova,,6/4,198,,au,2,
+,Channing Frye,,6/11,255,,us,9,
+,Joe Harris,,6/6,219,,us,1,
+,Kyrie Irving,,6/3,193,,au,4,
+,LeBron James,,6/8,250,,us,12,
+,Richard Jefferson,,6/7,233,,us,14,
+,Dahntay Jones,,6/6,225,,us,11,
+,James Jones,,6/8,218,,us,12,
+,Sasha Kaun,,6/11,260,,ru,R,
+,Kevin Love,,6/10,251,,us,7,
+,Jordan McRae,,6/6,185,,us,R,
+,Timofey Mozgov,,7/1,275,,ru,5,
+,Iman Shumpert,,6/5,220,,us,4,
+,J.R. Smith,,6/6,225,,us,11,
+,Tristan Thompson,,6/9,238,,ca,4,
+,Anderson Verejao,,6/10,273,,br,11,
+,Mo Williams,,6/1,198,,us,12,
+15,Anthony Bennett\bennean01,PF,6/8,245,March 14 1993,ca,2,University of Nevada Las Vegas
+8,Bismack Biyombo\biyombi01,C,6/9,255,August 28 1992,cd,4,
+20,Bruno Caboclo\cabocbr01,SF,6/9,218,September 21 1995,br,1,
+5,DeMarre Carroll\carrode01,SF,6/8,215,July 27 1986,us,6,Vanderbilt University University of Missouri
+10,DeMar DeRozan\derozde01,SG,6/7,221,August 7 1989,us,6,University of Southern California
+3,James Johnson\johnsja01,PF,6/9,250,February 20 1987,us,6,Wake Forest University
+6,Cory Joseph\josepco01,SG,6/3,193,August 20 1991,ca,4,University of Texas at Austin
+7,Kyle Lowry\lowryky01,PG,6/1,205,March 25 1986,us,9,Villanova University
+92,Lucas Nogueira\noguelu01,C,7/1,241,July 26 1992,br,1,
+54,Patrick Patterson\pattepa01,PF,6/9,230,March 14 1989,us,5,University of Kentucky
+24,Norman Powell\powelno01,SG,6/4,215,May 25 1993,us,R,University of California Los Angeles
+31,Terrence Ross\rosste01,SF,6/7,206,February 5 1991,us,3,University of Washington
+4,Luis Scola\scolalu01,PF,6/9,240,April 30 1980,ar,8,
+1,Jason Thompson\thompja02,C,6/11,250,July 21 1986,us,7,Rider University
+17,Jonas Valanciunas\valanjo01,C,7/1,265,May 6 1992,lt,3,
+55,Delon Wright\wrighde01,PG,6/5,183,April 26 1992,us,R,University of Utah
+11,Chris Andersen\anderch01,C,6/10,245,July 7 1978,us,13,Blinn College
+1,Chris Bosh\boshch01,PF,6/11,235,March 24 1984,us,12,Georgia Institute of Technology
+15,Mario Chalmers\chalmma01,PG,6/2,190,May 19 1986,us,7,University of Kansas
+9,Luol Deng\denglu01,PF,6/9,220,April 16 1985,ss,11,Duke University
+7,Goran Dragic\dragigo01,PG,6/3,190,May 6 1986,si,7,
+32,James Ennis\ennisja01,SF,6/7,210,July 1 1990,us,1,California State University Long Beach
+14,Gerald Green\greenge01,SG,6/7,205,January 26 1986,us,8,
+40,Udonis Haslem\hasleud01,PF,6/8,235,June 9 1980,us,12,University of Florida
+2,Joe Johnson\johnsjo02,SF,6/7,240,June 29 1981,us,14,University of Arkansas
+8,Tyler Johnson\johnsty01,SG,6/4,186,May 7 1992,us,1,California State University Fresno
+4,Josh McRoberts\mcrobjo01,PF,6/10,240,February 28 1987,us,8,Duke University
+0,Josh Richardson\richajo01,SG,6/6,200,September 15 1993,us,R,University of Tennessee
+12,Jarnell Stokes\stokeja01,C,6/9,263,January 7 1994,us,1,University of Tennessee
+5,Amar'e Stoudemire\stoudam01,C,6/10,245,November 16 1982,us,13,
+19,Beno Udrih\udrihbe01,PG,6/3,205,July 5 1982,si,11,
+3,Dwyane Wade\wadedw01,SG,6/4,220,January 17 1982,us,12,Marquette University
+12,Briante Weber\weberbr01,PG,6/2,165,December 29 1992,us,R,Virginia Commonwealth University
+21,Hassan Whiteside\whiteha01,C,7/1,265,June 13 1989,us,3,Marshall University
+20,Justise Winslow\winslju01,SF,6/7,225,March 26 1996,us,R,Duke University
+24,Kent Bazemore\bazemke01,SF,6/5,201,July 1 1989,us,3,Old Dominion University
+10,Tim Hardaway\hardati02,SG,6/6,205,March 16 1992,us,2,University of Michigan
+12,Kirk Hinrich\hinriki01,PG,6/4,190,January 2 1981,us,12,University of Kansas
+7,Justin Holiday\holidju01,SG,6/6,185,April 5 1989,us,2,University of Washington
+15,Al Horford\horfoal01,C,6/10,245,June 3 1986,do,8,University of Florida
+43,Kris Humphries\humphkr01,PF,6/9,235,February 6 1985,us,11,University of Minnesota
+26,Kyle Korver\korveky01,SG,6/7,212,March 17 1981,us,12,Creighton University
+8,Shelvin Mack\macksh01,PG,6/3,203,April 22 1990,us,4,Butler University
+4,Paul Millsap\millspa01,PF,6/8,246,February 10 1985,us,9,Louisiana Tech University
+31,Mike Muscala\muscami01,C,6/11,240,July 1 1991,us,2,Bucknell University
+13,Lamar Patterson\pattela01,SG,6/5,225,August 12 1991,us,R,University of Pittsburgh
+17,Dennis Schroder\schrode01,PG,6/1,172,September 15 1993,de,2,
+32,Mike Scott\scottmi01,PF,6/8,237,July 16 1988,us,3,University of Virginia
+25,Thabo Sefolosha\sefolth01,SF,6/7,220,May 2 1984,ch,9,
+11,Tiago Splitter\splitti01,C,6/11,245,January 1 1985,br,5,
+22,Edy Tavares\tavarwa01,C,7/3,260,March 22 1992,cv,R,
+0,Jeff Teague\teaguje01,PG,6/2,186,June 10 1988,us,6,Wake Forest University
+0,Avery Bradley\bradlav01,SG,6/2,180,November 26 1990,us,5,University of Texas at Austin
+63,Coty Clarke\clarkco01,SF,6/7,232,July 4 1992,us,R,University of Arkansas
+99,Jae Crowder\crowdja01,SF,6/6,235,July 6 1990,us,3,Marquette University
+28,R.J. Hunter\hunterj01,SG,6/5,185,October 24 1993,us,R,Georgia State University
+8,Jonas Jerebko\jerebjo01,PF,6/10,231,March 2 1987,se,5,
+90,Amir Johnson\johnsam01,PF,6/9,240,May 1 1987,us,10,
+42,David Lee\leeda02,PF,6/9,245,April 29 1983,us,10,University of Florida
+55,Jordan Mickey\mickejo01,PF,6/8,235,July 9 1994,us,R,Louisiana State University
+41,Kelly Olynyk\olynyke01,C,7/1,238,April 19 1991,ca,2,Gonzaga University
+12,Terry Rozier\roziete01,PG,6/2,190,March 17 1994,us,R,University of Louisville
+36,Marcus Smart\smartma01,PG,6/4,220,March 6 1994,us,1,Oklahoma State University
+7,Jared Sullinger\sullija01,PF,6/9,260,March 4 1992,us,3,Ohio State University
+4,Isaiah Thomas\thomais02,PG,5/9,185,February 7 1989,us,4,University of Washington
+11,Evan Turner\turneev01,SG,6/7,220,October 27 1988,us,5,Ohio State University
+13,James Young\youngja01,SG,6/6,215,August 16 1995,us,1,University of Kentucky
+44,Tyler Zeller\zellety01,C,7/1,253,January 17 1990,us,3,University of North Carolina
+5,Nicolas Batum\batumni01,SF,6/8,200,December 14 1988,fr,7,
+30,Troy Daniels\danietr01,SG,6/4,205,July 15 1991,us,2,Virginia Commonwealth University
+12,Jorge Gutierrez\gutiejo01,PG,6/3,191,December 27 1988,mx,2,University of California
+19,P.J. Hairston\hairspj02,SF,6/6,230,December 24 1992,us,1,University of North Carolina
+50,Tyler Hansbrough\hansbty01,PF,6/9,250,November 3 1985,us,6,University of North Carolina
+9,Aaron Harrison\harriaa01,SG,6/6,210,October 28 1994,us,R,University of Kentucky
+0,Spencer Hawes\hawessp01,PF,7/1,245,April 28 1988,us,8,University of Washington
+25,Al Jefferson\jeffeal01,C,6/10,289,January 4 1985,us,11,
+44,Frank Kaminsky\kaminfr01,C,7/1,242,April 4 1993,us,R,University of Wisconsin
+14,Michael Kidd-Gilchrist\kiddgmi01,SF,6/7,232,September 26 1993,us,3,University of Kentucky
+3,Jeremy Lamb\lambje01,SG,6/5,185,May 30 1992,us,3,University of Connecticut
+1,Courtney Lee\leeco01,SG,6/5,200,October 3 1985,us,7,Western Kentucky University
+7,Jeremy Lin\linje01,SG,6/3,200,August 23 1988,us,5,Harvard University
+22,Brian Roberts\roberbr01,PG,6/1,173,December 3 1985,us,3,University of Dayton
+15,Kemba Walker\walkeke02,PG,6/1,172,May 8 1990,us,4,University of Connecticut
+2,Marvin Williams\willima02,PF,6/9,237,June 19 1986,us,10,University of North Carolina
+40,Cody Zeller\zelleco01,C,7/1,240,October 5 1992,us,2,Indiana University
+5,Lavoy Allen\allenla01,PF,6/9,260,February 4 1989,us,4,Temple University
+10,Chase Budinger\budinch01,SF,6/7,209,May 22 1988,us,6,University of Arizona
+25,Rakeem Christmas\chrisra01,PF,6/9,250,December 1 1991,us,R,Syracuse University
+11,Monta Ellis\ellismo01,SG,6/3,185,October 26 1985,us,10,
+13,Paul George\georgpa01,SF,6/9,220,May 2 1990,us,5,California State University Fresno
+3,George Hill\hillge01,PG,6/3,188,May 4 1986,us,7,Indiana University-Purdue University Indianapolis
+27,Jordan Hill\hilljo01,C,6/10,235,July 27 1987,us,6,University of Arizona
+44,Solomon Hill\hillso01,SF,6/7,225,March 18 1991,us,2,University of Arizona
+10,Ty Lawson\lawsoty01,PG,5/11,195,November 3 1987,us,6,University of North Carolina
+28,Ian Mahinmi\mahinia01,C,6/11,250,November 5 1986,fr,7,
+0,C.J. Miles\milescj01,SF,6/6,225,April 18 1987,us,10,
+40,Glenn Robinson\robingl02,SF,6/6,222,January 8 1994,us,1,University of Michigan
+2,Rodney Stuckey\stuckro01,PG,6/5,210,April 21 1986,us,8,Eastern Washington University
+33,Myles Turner\turnemy01,C,6/11,243,March 24 1996,us,R,University of Texas at Austin
+42,Shayne Whittington\whittsh01,PF,6/11,250,March 27 1991,us,1,Western Michigan University
+1,Joe Young\youngjo01,PG,6/2,180,June 27 1992,us,R,University of Houston University of Oregon
+50,Joel Anthony\anthojo01,C,6/9,245,August 9 1982,ca,8,University of Nevada Las Vegas
+12,Aron Baynes\baynear01,C,6/10,260,December 9 1986,nz,3,Washington State University
+22,Steve Blake\blakest01,PG,6/3,172,February 26 1980,us,12,University of Maryland
+25,Reggie Bullock\bullore01,SF,6/7,205,March 16 1991,us,2,University of North Carolina
+5,Kentavious Caldwell-Pope\caldwke01,SG,6/5,205,February 18 1993,us,2,University of Georgia
+8,Spencer Dinwiddie\dinwisp01,PG,6/6,200,April 6 1993,us,1,University of Colorado
+0,Andre Drummond\drumman01,C,6/11,279,August 10 1993,us,3,University of Connecticut
+32,Justin Harper\harpeju01,PF,6/10,225,August 30 1989,us,1,University of Richmond
+34,Tobias Harris\harrito02,PF,6/9,235,July 15 1992,us,4,University of Tennessee
+6,Darrun Hilliard\hillida01,SG,6/6,205,April 13 1993,us,R,Villanova University
+23,Ersan Ilyasova\ilyaser01,PF,6/10,235,May 15 1987,tr,7,
+1,Reggie Jackson\jacksre01,PG,6/3,208,April 16 1990,it,4,Boston College
+7,Brandon Jennings\jennibr01,PG,6/1,170,September 23 1989,us,6,
+3,Stanley Johnson\johnsst04,SF,6/7,245,May 29 1996,us,R,University of Arizona
+20,Jodie Meeks\meeksjo01,SG,6/4,210,August 21 1987,us,6,University of Kentucky
+13,Marcus Morris\morrima03,SF,6/9,235,September 2 1989,us,4,University of Kansas
+43,Anthony Tolliver\tollian01,PF,6/8,240,June 1 1985,us,7,Creighton University
+41,Cameron Bairstow\bairsca01,C,6/9,250,December 7 1990,au,1,University of New Mexico
+0,Aaron Brooks\brookaa01,PG,6/1,161,January 14 1985,us,7,University of Oregon
+21,Jimmy Butler\butleji01,SG,6/8,236,September 14 1989,us,4,Marquette University
+34,Mike Dunleavy\dunlemi02,SF,6/9,230,September 15 1980,us,13,Duke University
+6,Cristiano Felicio\feliccr01,C,6/10,275,July 7 1992,br,R,
+16,Pau Gasol\gasolpa01,C,7/1,250,July 6 1980,es,14,
+22,Taj Gibson\gibsota01,PF,6/9,225,June 24 1985,us,6,University of Southern California
+12,Kirk Hinrich\hinriki01,PG,6/4,190,January 2 1981,us,12,University of Kansas
+7,Justin Holiday\holidju01,SG,6/6,185,April 5 1989,us,2,University of Washington
+3,Doug McDermott\mcderdo01,SF,6/8,225,January 3 1992,us,1,Creighton University
+44,Nikola Mirotic\mirotni01,PF,6/10,220,February 11 1991,me,1,
+55,E'Twaun Moore\mooreet01,SG,6/4,191,February 28 1989,us,4,Purdue University
+13,Joakim Noah\noahjo01,C,6/11,230,February 25 1985,us,8,University of Florida
+5,Bobby Portis\portibo01,PF,6/11,230,February 10 1995,us,R,University of Arkansas
+1,Derrick Rose\rosede01,PG,6/3,190,October 4 1988,us,6,University of Memphis
+20,Tony Snell\snellto01,SF,6/7,200,November 10 1991,us,2,University of New Mexico
+6,Alan Anderson\anderal01,SG,6/6,220,October 16 1982,us,6,Michigan State University
+3,Bradley Beal\bealbr01,SG,6/5,207,June 28 1993,us,3,University of Florida
+45,DeJuan Blair\blairde01,C,6/7,270,April 22 1989,us,6,University of Pittsburgh
+1,Jared Dudley\dudleja01,PF,6/7,225,July 10 1985,us,8,Boston College
+8,Jarell Eddie\eddieja01,SF,6/7,218,October 30 1991,us,R,Virginia Polytechnic Institute and State University
+90,Drew Gooden\goodedr01,PF,6/10,250,September 24 1981,us,13,University of Kansas
+13,Marcin Gortat\gortama01,C,6/11,240,February 17 1984,pl,8,
+21,J.J. Hickson\hicksjj01,C,6/9,242,September 4 1988,us,7,North Carolina State University
+42,Nene Hilario\hilarne01,PF,6/11,250,September 13 1982,br,13,
+15,Ryan Hollins\holliry01,C,7/1,240,October 10 1984,us,9,University of California Los Angeles
+43,Kris Humphries\humphkr01,PF,6/9,235,February 6 1985,us,11,University of Minnesota
+5,Markieff Morris\morrima02,PF,6/10,245,September 2 1989,us,4,University of Kansas
+14,Gary Neal\nealga01,SG,6/4,210,October 3 1984,us,5,La Salle University Towson University
+12,Kelly Oubre\oubreke01,SF,6/7,205,December 9 1995,us,R,University of Kansas
+22,Otto Porter\porteot01,SF,6/8,198,June 3 1993,us,2,Georgetown University
+7,Ramon Sessions\sessira01,PG,6/3,190,April 11 1986,us,8,University of Nevada Reno
+17,Garrett Temple\templga01,SF,6/6,195,May 8 1986,us,5,Louisiana State University
+15,Marcus Thornton\thornma01,SG,6/4,205,June 5 1987,us,6,Louisiana State University
+2,John Wall\walljo01,PG,6/4,195,September 6 1990,us,5,University of Kentucky
+15,Keith Appling\applike01,PG,6/1,185,February 13 1992,us,R,Michigan State University
+3,Dewayne Dedmon\dedmode01,C,7/1,245,August 12 1989,us,2,University of Southern California
+10,Evan Fournier\fournev01,SF,6/7,205,October 29 1992,fr,3,
+8,Channing Frye\fryech01,PF,6/11,255,May 17 1983,us,9,University of Arizona
+0,Aaron Gordon\gordoaa01,PF,6/9,220,September 16 1995,us,1,University of Arizona
+12,Tobias Harris\harrito02,PF,6/9,235,July 15 1992,us,4,University of Tennessee
+23,Mario Hezonja\hezonma01,SF,6/8,215,February 25 1995,hr,R,
+7,Ersan Ilyasova\ilyaser01,PF,6/10,235,May 15 1987,tr,7,
+55,Brandon Jennings\jennibr01,PG,6/1,170,September 23 1989,us,6,
+11,Devyn Marble\marblde01,SG,6/6,200,September 21 1992,us,1,University of Iowa
+13,Shabazz Napier\napiesh01,PG,6/1,175,July 14 1991,us,1,University of Connecticut
+44,Andrew Nicholson\nichoan01,PF,6/9,250,December 8 1989,ca,3,St. Bonaventure University
+5,Victor Oladipo\oladivi01,SG,6/4,210,May 4 1992,us,2,Indiana University
+4,Elfrid Payton\paytoel01,PG,6/4,185,February 22 1994,us,1,University of Louisiana at Lafayette
+14,Jason Smith\smithja02,C,7/1,245,March 2 1986,us,7,Colorado State University
+9,Nikola Vucevic\vucevni01,C,7/1,260,October 24 1990,ch,4,University of Southern California
+32,C.J. Watson\watsocj01,PG,6/2,175,April 17 1984,us,8,University of Tennessee
+34,Giannis Antetokounmpo\antetgi01,PG,6/11,222,December 6 1994,gr,2,
+19,Jerryd Bayless\bayleje01,SG,6/3,200,August 20 1988,us,7,University of Arizona
+5,Michael Carter-Williams\cartemi01,PG,6/6,190,October 10 1991,us,2,Syracuse University
+9,Chris Copeland\copelch01,PF,6/9,239,March 17 1984,us,3,University of Colorado
+9,Jared Cunningham\cunnija01,SG,6/4,195,May 22 1991,us,3,Oregon State University
+11,Tyler Ennis\ennisty01,PG,6/3,194,August 24 1994,ca,1,Syracuse University
+31,John Henson\hensojo01,C,6/11,229,December 28 1990,us,3,University of North Carolina
+17,Damien Inglis\inglida01,SF,6/8,246,May 20 1995,gf,R,
+3,O.J. Mayo\mayooj01,SG,6/5,210,November 5 1987,us,7,University of Southern California
+22,Khris Middleton\middlkh01,SG,6/8,234,August 12 1991,us,3,Texas A&M University
+15,Greg Monroe\monrogr01,C,6/11,265,June 4 1990,us,5,Georgetown University
+6,Steve Novak\novakst01,PF,6/10,225,June 13 1983,us,9,Marquette University
+77,Johnny O'Bryant\obryajo01,PF,6/9,257,June 1 1993,us,1,Louisiana State University
+12,Jabari Parker\parkeja01,PF,6/8,250,March 15 1995,us,1,Duke University
+18,Miles Plumlee\plumlmi01,C,6/11,249,September 1 1988,us,3,Duke University
+21,Greivis Vasquez\vasqugr01,PG,6/6,217,January 16 1987,ve,5,University of Maryland
+20,Rashad Vaughn\vaughra01,SG,6/6,202,August 16 1996,us,R,University of Nevada Las Vegas
+4,Arron Afflalo\afflaar01,SG,6/5,210,October 15 1985,us,8,University of California Los Angeles
+17,Lou Amundson\amundlo01,PF,6/9,220,December 7 1982,us,9,University of Nevada Las Vegas
+43,Thanasis Antetokounmpo\antetth01,SF,6/7,205,July 17 1992,gr,R,
+7,Carmelo Anthony\anthoca01,SF,6/8,240,May 29 1984,us,12,Syracuse University
+3,Jose Calderon\caldejo01,PG,6/3,200,September 28 1981,es,10,
+11,Cleanthony Early\earlycl01,SF,6/8,210,April 17 1991,us,1,Wichita State University
+32,Jimmer Fredette\fredeji01,SG,6/2,195,February 25 1989,us,4,Brigham Young University
+2,Langston Galloway\gallola01,PG,6/2,200,December 9 1991,us,1,Saint Joseph's University
+13,Jerian Grant\grantje02,PG,6/4,195,October 9 1992,us,R,University of Notre Dame
+8,Robin Lopez\lopezro01,C,7/1,255,April 1 1988,us,7,Stanford University
+9,Kyle O'Quinn\oquinky01,PF,6/10,250,March 26 1990,us,3,Norfolk State University
+6,Kristaps Porzingis\porzikr01,PF,7/3,240,August 2 1995,lv,R,
+1,Kevin Seraphin\serapke01,C,6/9,285,December 7 1989,gf,5,
+42,Lance Thomas\thomala01,PF,6/8,235,April 24 1988,us,4,Duke University
+18,Sasha Vujacic\vujacsa01,SG,6/7,195,March 8 1984,si,8,
+23,Derrick Williams\willide02,SF,6/8,240,May 25 1991,us,4,University of Arizona
+9,Andrea Bargnani\bargnan01,C,7/1,245,October 26 1985,it,9,
+44,Bojan Bogdanovic\bogdabo02,SF,6/8,216,April 18 1989,ba,1,
+22,Markel Brown\brownma02,SG,6/3,190,January 29 1992,us,1,Oklahoma State University
+21,Wayne Ellington\ellinwa01,SG,6/4,200,October 29 1987,us,6,University of North Carolina
+24,Rondae Hollis-Jefferson\holliro01,SF,6/7,220,January 3 1995,us,R,University of Arizona
+2,Jarrett Jack\jackja01,PG,6/3,200,October 28 1983,us,10,Georgia Institute of Technology
+7,Joe Johnson\johnsjo02,SF,6/7,240,June 29 1981,us,14,University of Arkansas
+10,Sergey Karasev\karasse01,SF,6/7,208,October 26 1993,ru,2,
+6,Sean Kilpatrick\kilpase01,SG,6/4,210,January 6 1990,us,1,University of Cincinnati
+0,Shane Larkin\larkish01,PG,5/11,175,October 2 1992,us,2,University of Miami
+11,Brook Lopez\lopezbr01,C,7/1,275,April 1 1988,us,7,Stanford University
+1,Chris McCullough\mcculch01,PF,6/11,200,February 5 1995,us,R,Syracuse University
+33,Willie Reed\reedwi02,C,6/10,220,May 16 1990,us,R,Saint Louis University
+41,Thomas Robinson\robinth01,PF,6/10,237,March 17 1991,us,3,University of Kansas
+14,Henry Sims\simshe01,C,6/10,248,March 27 1990,us,3,Georgetown University
+15,Donald Sloan\sloando01,PG,6/3,205,January 15 1988,us,4,Texas A&M University
+30,Thaddeus Young\youngth01,PF,6/8,221,June 21 1988,us,8,Georgia Institute of Technology
+42,Elton Brand\brandel01,C,6/8,275,March 11 1979,us,16,Duke University
+0,Isaiah Canaan\canaais01,SG,6/1,201,May 21 1991,us,2,Murray State University
+33,Robert Covington\covinro01,SF,6/9,215,December 14 1990,us,2,Tennessee State University
+39,Jerami Grant\grantje01,PF,6/8,210,March 12 1994,us,1,Syracuse University
+22,Richaun Holmes\holmeri01,PF,6/10,245,October 15 1993,us,R,Bowling Green State University
+7,Carl Landry\landrca01,PF,6/9,248,September 19 1983,us,8,Purdue University
+5,Kendall Marshall\marshke01,PG,6/4,200,August 19 1991,us,3,University of North Carolina
+12,T.J. McConnell\mccontj01,PG,6/2,200,March 25 1992,us,R,Duquesne University University of Arizona
+4,Nerlens Noel\noelne01,C,6/11,228,April 10 1994,us,1,University of Kentucky
+8,Jahlil Okafor\okafoja01,C,6/11,275,December 15 1995,us,R,Duke University
+26,Phil Pressey\pressph01,PG,5/11,175,February 17 1991,us,2,University of Missouri
+9,JaKarr Sampson\sampsja02,SF,6/9,214,March 20 1993,us,1,St. John's University
+1,Ish Smith\smithis01,PG,6/1,175,July 5 1988,us,5,Wake Forest University
+11,Nik Stauskas\stausni01,SG,6/6,205,October 7 1993,ca,1,University of Michigan
+31,Hollis Thompson\thompho01,SG,6/8,206,April 3 1991,us,2,Georgetown University
+9,Sonny Weems\weemsso01,SF,6/6,205,July 8 1986,us,3,University of Arkansas
+35,Christian Wood\woodch01,PF,6/11,220,September 27 1995,us,R,University of Nevada Las Vegas
+1,Tony Wroten\wroteto01,PG,6/6,205,April 13 1993,us,3,University of Washington
+19,Leandro Barbosa\barbole01,SG,6/3,194,November 28 1982,br,12,
+40,Harrison Barnes\barneha02,SF,6/8,210,May 30 1992,us,3,University of North Carolina
+12,Andrew Bogut\bogutan01,C,7/1,260,November 28 1984,au,10,University of Utah
+21,Ian Clark\clarkia01,SG,6/3,175,March 7 1991,us,2,Belmont University
+30,Stephen Curry\curryst01,PG,6/3,190,March 14 1988,us,6,Davidson College
+31,Festus Ezeli\ezelife01,C,6/11,255,October 21 1989,ng,2,Vanderbilt University
+23,Draymond Green\greendr01,PF,6/7,230,March 4 1990,us,3,Michigan State University
+9,Andre Iguodala\iguodan01,SF,6/6,215,January 28 1984,us,11,University of Arizona
+34,Shaun Livingston\livinsh01,PG,6/7,192,September 11 1985,us,10,
+36,Kevon Looney\looneke01,PF,6/9,220,February 6 1996,us,R,University of California Los Angeles
+20,James Michael McAdoo\mcadoja01,PF,6/9,230,January 4 1993,us,1,University of North Carolina
+4,Brandon Rush\rushbr01,SG,6/6,220,July 7 1985,us,7,University of Kansas
+5,Marreese Speights\speigma01,C,6/10,255,August 4 1987,us,7,University of Florida
+1,Jason Thompson\thompja02,C,6/11,250,July 21 1986,us,7,Rider University
+11,Klay Thompson\thompkl01,SG,6/7,215,February 8 1990,us,4,Washington State University
+18,Anderson Varejao\varejan01,C,6/10,273,September 28 1982,br,11,
+12,LaMarcus Aldridge\aldrila01,PF,6/11,260,July 19 1985,us,9,University of Texas at Austin
+1,Kyle Anderson\anderky01,SF,6/9,230,September 20 1993,us,1,University of California Los Angeles
+15,Matt Bonner\bonnema01,C,6/10,235,April 5 1980,us,11,University of Florida
+18,Rasual Butler\butlera01,SF,6/7,215,May 23 1979,us,12,La Salle University
+33,Boris Diaw\diawbo01,PF,6/8,250,April 16 1982,fr,12,
+21,Tim Duncan\duncati01,C,6/11,250,April 25 1976,vi,18,Wake Forest University
+20,Manu Ginobili\ginobma01,SG,6/6,205,July 28 1977,ar,13,
+14,Danny Green\greenda02,SG,6/6,215,June 22 1987,us,6,University of North Carolina
+2,Kawhi Leonard\leonaka01,SF,6/7,230,June 29 1991,us,4,San Diego State University
+40,Boban Marjanovic\marjabo01,C,7/3,290,August 15 1988,rs,R,
+23,Kevin Martin\martike02,SG,6/7,199,February 1 1983,us,11,Western Carolina University
+3,Ray McCallum\mccalra01,PG,6/3,190,June 12 1991,us,2,University of Detroit Mercy
+24,Andre Miller\millean02,PG,6/3,200,March 19 1976,us,16,University of Utah
+8,Patty Mills\millspa02,PG,6/1,185,August 11 1988,au,6,Saint Mary's College of California
+9,Tony Parker\parketo01,PG,6/2,185,May 17 1982,be,14,
+17,Jonathon Simmons\simmojo02,SG,6/6,195,September 14 1989,us,R,University of Houston
+30,David West\westda01,PF,6/9,250,August 29 1980,us,12,Xavier University
+12,Steven Adams\adamsst01,C,7/1,255,July 20 1993,nz,2,University of Pittsburgh
+14,D.J. Augustin\augusdj01,PG,6/1,183,November 10 1987,us,7,University of Texas at Austin
+4,Nick Collison\collini01,PF,6/10,255,October 26 1980,us,11,University of Kansas
+35,Kevin Durant\duranke01,SF,6/9,240,September 29 1988,us,8,University of Texas at Austin
+6,Randy Foye\foyera01,SG,6/4,213,September 24 1983,us,9,Villanova University
+34,Josh Huestis\huestjo01,PF,6/7,230,December 19 1991,us,R,Stanford University
+9,Serge Ibaka\ibakase01,PF,6/10,235,September 18 1989,cg,6,
+11,Enes Kanter\kanteen01,C,6/11,245,May 20 1992,ch,4,
+33,Mitch McGary\mcgarmi01,PF,6/10,255,June 6 1992,us,1,University of Michigan
+13,Nazr Mohammed\mohamna01,C,6/10,221,September 5 1977,us,17,University of Kentucky
+2,Anthony Morrow\morroan01,SG,6/5,210,September 27 1985,us,7,Georgia Institute of Technology
+6,Steve Novak\novakst01,PF,6/10,225,June 13 1983,us,9,Marquette University
+22,Cameron Payne\payneca01,PG,6/3,185,August 8 1994,us,R,Murray State University
+21,Andre Roberson\roberan03,SG,6/7,210,December 4 1991,us,2,University of Colorado
+5,Kyle Singler\singlky01,SF,6/8,228,May 4 1988,us,3,Duke University
+3,Dion Waiters\waitedi01,SG,6/4,225,December 10 1991,us,3,Syracuse University
+0,Russell Westbrook\westbru01,PG,6/3,200,November 12 1988,us,7,University of California Los Angeles
+45,Cole Aldrich\aldrico01,C,6/11,250,October 31 1988,us,5,University of Kansas
+19,Jeff Ayres\pendeje02,C,6/9,240,April 29 1987,us,5,Arizona State University
+11,Jamal Crawford\crawfja01,SG,6/5,200,March 20 1980,us,15,University of Michigan
+22,Branden Dawson\dawsobr01,PF,6/6,225,February 1 1993,us,R,Michigan State University
+8,Jeff Green\greenje02,SF,6/9,235,August 28 1986,us,7,Georgetown University
+32,Blake Griffin\griffbl01,PF,6/10,251,March 16 1989,us,5,University of Oklahoma
+33,Wesley Johnson\johnswe01,SF,6/7,215,July 11 1987,us,5,Iowa State University Syracuse University
+6,DeAndre Jordan\jordade01,C,6/11,265,July 21 1988,us,7,Texas A&M University
+12,Luc Mbah a Moute\mbahalu01,PF,6/8,230,September 9 1986,cm,7,University of California Los Angeles
+3,Chris Paul\paulch01,PG,6/1,175,May 6 1985,us,10,Wake Forest University
+34,Paul Pierce\piercpa01,SF,6/7,235,October 13 1977,us,17,University of Kansas
+9,Pablo Prigioni\prigipa01,PG,6/3,185,May 17 1977,ar,3,
+4,J.J. Redick\redicjj01,SG,6/4,190,June 24 1984,us,9,Duke University
+25,Austin Rivers\riverau01,SG,6/4,200,August 1 1992,us,3,Duke University
+5,Josh Smith\smithjo03,PF,6/9,225,December 5 1985,us,11,
+1,Lance Stephenson\stephla01,SF,6/5,230,September 5 1990,us,5,University of Cincinnati
+35,Alex Stepheson\stephal01,PF,6/10,270,August 7 1987,us,R,University of North Carolina University of Southern California
+30,C.J. Wilcox\wilcocj01,SG,6/5,195,December 30 1990,us,1,University of Washington
+34,Cliff Alexander\alexacl01,PF,6/8,245,November 16 1995,us,R,University of Kansas
+8,Al-Farouq Aminu\aminual01,SF,6/9,220,September 21 1990,us,5,Wake Forest University
+5,Pat Connaughton\connapa01,SG,6/5,206,January 6 1993,us,R,University of Notre Dame
+23,Allen Crabbe\crabbal01,SG,6/6,210,April 9 1992,us,2,University of California
+17,Ed Davis\davised01,PF,6/10,240,June 5 1989,us,5,University of North Carolina
+10,Tim Frazier\fraziti01,PG,6/1,170,November 1 1990,us,1,Pennsylvania State University
+4,Maurice Harkless\harklma01,SF,6/9,215,May 11 1993,us,3,St. John's University
+9,Gerald Henderson\hendege02,SG,6/5,215,December 9 1987,us,6,Duke University
+35,Chris Kaman\kamanch01,C,7/1,265,April 28 1982,us,12,Central Michigan University
+11,Meyers Leonard\leoname01,PF,7/1,245,February 27 1992,us,3,University of Illinois at Urbana-Champaign
+0,Damian Lillard\lillada01,PG,6/3,195,July 15 1990,us,3,Weber State University
+3,CJ McCollum\mccolcj01,SG,6/3,190,September 19 1991,us,2,Lehigh University
+44,Luis Montero\montelu01,SG,6/7,185,April 6 1993,do,R,Westchester CC
+24,Mason Plumlee\plumlma01,C,6/11,245,March 5 1990,us,2,Duke University
+2,Brian Roberts\roberbr01,PG,6/1,173,December 3 1985,us,3,University of Dayton
+21,Noah Vonleh\vonleno01,PF,6/10,240,August 24 1995,us,1,Indiana University
+1,Justin Anderson\anderju01,SF,6/6,228,November 19 1993,us,R,University of Virginia
+5,J.J. Barea\bareajo01,PG,6/1,185,June 26 1984,pr,9,Northeastern University
+21,Jeremy Evans\evansje01,SF,6/9,200,October 24 1987,us,5,Western Kentucky University
+2,Raymond Felton\feltora01,PG,6/1,205,June 26 1984,us,10,University of North Carolina
+34,Devin Harris\harride01,PG,6/3,192,February 27 1983,us,11,University of Wisconsin
+12,John Jenkins\jenkijo01,SG,6/4,215,March 6 1991,us,3,Vanderbilt University
+42,David Lee\leeda02,PF,6/9,245,April 29 1983,us,10,University of Florida
+23,Wesley Matthews\matthwe02,SF,6/5,220,October 14 1986,us,6,Marquette University
+11,JaVale McGee\mcgeeja01,C,7/1,270,January 19 1988,us,7,University of Nevada Reno
+50,Salah Mejri\mejrisa01,C,7/1,245,June 15 1986,tn,R,
+41,Dirk Nowitzki\nowitdi01,PF,7/1,245,June 19 1978,de,17,
+27,Zaza Pachulia\pachuza01,C,6/11,270,February 10 1984,ge,12,
+25,Chandler Parsons\parsoch01,SF,6/10,230,October 25 1988,us,4,University of Florida
+7,Dwight Powell\poweldw01,PF,6/11,240,July 20 1991,ca,1,Stanford University
+3,Charlie Villanueva\villach01,PF,6/11,232,August 24 1984,us,10,University of Connecticut
+8,Deron Williams\willide01,PG,6/3,200,June 26 1984,us,10,University of Illinois at Urbana-Champaign
+3,Jordan Adams\adamsjo01,SG,6/5,209,July 8 1994,us,1,University of California Los Angeles
+9,Tony Allen\allento01,SG,6/4,213,January 11 1982,us,11,Butler County Community College Oklahoma State University
+7,Chris Andersen\anderch01,C,6/10,245,July 7 1978,us,13,Blinn College
+22,Matt Barnes\barnema02,SF,6/7,226,March 9 1980,us,12,University of California Los Angeles
+15,Vince Carter\cartevi01,SG,6/6,220,January 26 1977,us,17,University of North Carolina
+6,Mario Chalmers\chalmma01,PG,6/2,190,May 19 1986,us,7,University of Kansas
+11,Mike Conley\conlemi01,PG,6/1,175,October 11 1987,us,8,Ohio State University
+8,Bryce Cotton\cottobr01,PG,6/1,165,August 11 1992,us,1,Providence College
+8,James Ennis\ennisja01,SF,6/7,210,July 1 1990,us,1,California State University Long Beach
+4,Jordan Farmar\farmajo01,PG,6/2,180,November 30 1986,us,8,University of California Los Angeles
+33,Marc Gasol\gasolma01,C,7/1,255,January 29 1985,es,7,
+0,JaMychal Green\greenja01,PF,6/9,227,June 21 1990,us,1,University of Alabama
+32,Jeff Green\greenje02,SF,6/9,235,August 28 1986,us,7,Georgetown University
+19,P.J. Hairston\hairspj02,SF,6/6,230,December 24 1992,us,1,University of North Carolina
+20,Ryan Hollins\holliry01,C,7/1,240,October 10 1984,us,9,University of California Los Angeles
+5,Courtney Lee\leeco01,SG,6/5,200,October 3 1985,us,7,Western Kentucky University
+10,Jarell Martin\martija01,PF,6/10,239,May 24 1994,us,R,Louisiana State University
+5,Ray McCallum\mccalra01,PG,6/3,190,June 12 1991,us,2,University of Detroit Mercy
+14,Xavier Munford\munfoxa02,SG,6/2,180,June 1 1992,us,R,University of Rhode Island
+50,Zach Randolph\randoza01,PF,6/9,260,July 16 1981,us,14,Michigan State University
+2,Russ Smith\smithru01,PG,6/1,165,April 19 1991,us,1,University of Louisville
+1,Lance Stephenson\stephla01,SF,6/5,230,September 5 1990,us,5,University of Cincinnati
+35,Alex Stepheson\stephal01,PF,6/10,270,August 7 1987,us,R,University of North Carolina University of Southern California
+1,Jarnell Stokes\stokeja01,C,6/9,263,January 7 1994,us,1,University of Tennessee
+19,Beno Udrih\udrihbe01,PG,6/3,205,July 5 1982,si,11,
+2,Briante Weber\weberbr01,PG,6/2,165,December 29 1992,us,R,Virginia Commonwealth University
+25,Elliot Williams\williel01,PG,6/5,190,June 20 1989,us,3,Duke University University of Memphis
+34,Brandan Wright\wrighbr03,PF,6/10,210,October 5 1987,us,7,University of North Carolina
+1,Trevor Ariza\arizatr01,SF,6/8,215,June 30 1985,us,11,University of California Los Angeles
+8,Michael Beasley\beaslmi01,PF,6/9,235,January 9 1989,us,7,Kansas State University
+2,Patrick Beverley\beverpa01,PG,6/1,185,July 12 1988,us,3,University of Arkansas
+33,Corey Brewer\breweco01,SF,6/9,186,March 5 1986,us,8,University of Florida
+15,Clint Capela\capelca01,C,6/10,240,May 18 1994,ch,1,
+7,Sam Dekker\dekkesa01,PF,6/9,230,May 6 1994,us,R,University of Wisconsin
+0,Andrew Goudelock\goudean01,PG,6/3,200,December 7 1988,us,2,College of Charleston
+13,James Harden\hardeja01,SG,6/5,220,August 26 1989,us,6,Arizona State University
+35,Montrezl Harrell\harremo01,PF,6/8,240,January 26 1994,us,R,University of Louisville
+44,Chuck Hayes\hayesch01,C,6/6,240,June 11 1983,us,10,University of Kentucky
+12,Dwight Howard\howardw01,C,6/11,265,December 8 1985,us,11,
+6,Terrence Jones\joneste01,PF,6/9,252,January 9 1992,us,3,University of Kentucky
+3,Ty Lawson\lawsoty01,PG,5/11,195,November 3 1987,us,6,University of North Carolina
+32,K.J. McDaniels\mcdankj01,SF,6/6,205,February 9 1993,us,1,Clemson University
+20,Donatas Motiejunas\motiedo01,PF,7/1,222,September 20 1990,lt,3,
+5,Josh Smith\smithjo03,PF,6/9,225,December 5 1985,us,11,
+31,Jason Terry\terryja01,SG,6/2,185,September 15 1977,us,16,University of Arizona
+10,Marcus Thornton\thornma01,SG,6/4,205,June 5 1987,us,6,Louisiana State University
+33,Trevor Booker\booketr01,PF,6/8,228,November 25 1987,us,5,Clemson University
+3,Trey Burke\burketr01,PG,6/1,191,November 12 1992,us,2,University of Michigan
+10,Alec Burks\burksal01,SG,6/6,214,July 20 1991,us,4,University of Colorado
+15,Derrick Favors\favorde01,PF,6/10,265,July 15 1991,us,5,Georgia Institute of Technology
+27,Rudy Gobert\goberru01,C,7/1,245,June 26 1992,fr,2,
+18,Erick Green\greener01,PG,6/4,185,May 9 1991,us,1,Virginia Polytechnic Institute and State University
+20,Gordon Hayward\haywago01,SF,6/8,226,March 23 1990,us,5,Butler University
+5,Rodney Hood\hoodro01,SG,6/8,206,October 20 1992,us,1,Mississippi State University Duke University
+2,Joe Ingles\inglejo01,SF,6/8,226,October 2 1987,au,1,
+23,Chris Johnson\johnsch04,SF,6/6,206,April 29 1990,us,3,University of Dayton
+41,Trey Lyles\lylestr01,PF,6/10,234,November 5 1995,ca,R,University of Kentucky
+8,Shelvin Mack\macksh01,PG,6/3,203,April 22 1990,us,4,Butler University
+13,Elijah Millsap\millsel01,SG,6/6,225,August 12 1987,us,1,University of Louisiana at Lafayette University of Alabama at Birmingham
+25,Raul Neto\netora01,PG,6/1,179,May 19 1992,br,R,
+22,J.J. O'Brien\obriejj01,SF,6/7,228,April 8 1992,us,R,San Diego State University
+21,Tibor Pleiss\pleisti01,C,7/3,256,November 2 1989,de,R,
+24,Jeff Withey\witheje01,C,7/1,231,March 7 1990,us,2,University of Kansas
+13,Quincy Acy\acyqu01,PF,6/7,240,October 6 1990,us,3,Baylor University
+5,James Anderson\anderja01,SG,6/6,213,March 25 1989,us,4,Oklahoma State University
+3,Marco Belinelli\belinma01,SG,6/5,210,March 25 1986,it,8,
+31,Caron Butler\butleca01,SF,6/7,228,March 13 1980,us,13,University of Connecticut
+18,Omri Casspi\casspom01,PF,6/9,225,June 22 1988,il,6,
+0,Willie Cauley-Stein\caulewi01,C,7/1,240,August 18 1993,us,R,University of Kentucky
+7,Darren Collison\collida01,PG,6/1,175,August 23 1987,us,6,University of California Los Angeles
+15,DeMarcus Cousins\couside01,C,6/11,270,August 13 1990,us,5,University of Kentucky
+30,Seth Curry\curryse01,PG,6/2,185,August 23 1990,us,2,Liberty University Duke University
+26,Duje Dukan\dukandu01,SF,6/9,220,December 4 1991,hr,R,University of Wisconsin
+8,Rudy Gay\gayru01,SF,6/8,230,August 17 1986,us,9,University of Connecticut
+41,Kosta Koufos\koufoko01,C,7/1,265,February 24 1989,us,7,Ohio State University
+23,Ben McLemore\mclembe01,SG,6/5,195,February 11 1993,us,2,University of Kansas
+25,Eric Moreland\moreler01,PF,6/10,238,December 24 1991,us,1,Oregon State University
+9,Rajon Rondo\rondora01,PG,6/1,186,February 22 1986,us,9,University of Kentucky
+0,Darrell Arthur\arthuda01,PF,6/9,235,March 25 1988,us,6,University of Kansas
+12,D.J. Augustin\augusdj01,PG,6/1,183,November 10 1987,us,7,University of Texas at Austin
+5,Will Barton\bartowi01,SG,6/6,175,January 6 1991,us,3,University of Memphis
+35,Kenneth Faried\farieke01,PF,6/8,228,November 19 1989,us,4,Morehead State University
+4,Randy Foye\foyera01,SG,6/4,213,September 24 1983,us,9,Villanova University
+8,Danilo Gallinari\gallida01,SF,6/10,225,August 8 1988,it,6,
+11,Erick Green\greener01,PG,6/4,185,May 9 1991,us,1,Virginia Polytechnic Institute and State University
+14,Gary Harris\harriga01,SG,6/4,210,September 14 1994,us,1,Michigan State University
+7,J.J. Hickson\hicksjj01,C,6/9,242,September 4 1988,us,7,North Carolina State University
+15,Nikola Jokic\jokicni01,C,6/10,250,February 19 1995,rs,R,
+6,Sean Kilpatrick\kilpase01,SG,6/4,210,January 6 1990,us,1,University of Cincinnati
+77,Joffrey Lauvergne\lauvejo01,C,6/11,220,September 30 1991,fr,1,
+3,Mike Miller\millemi01,SF,6/8,218,February 19 1980,us,15,University of Florida
+0,Emmanuel Mudiay\mudiaem01,PG,6/5,200,March 5 1996,cd,R,
+1,Jameer Nelson\nelsoja01,PG,6/1,190,February 9 1982,us,11,Saint Joseph's University
+23,Jusuf Nurkic\nurkiju01,C,7/1,280,August 23 1994,ba,1,
+16,Kostas Papanikolaou\papanko01,SF,6/8,225,July 31 1990,gr,1,
+9,JaKarr Sampson\sampsja02,SF,6/9,214,March 20 1993,us,1,St. John's University
+6,Axel Toupane\toupaax01,SF,6/7,197,July 23 1992,fr,R,
+42,Alexis Ajinca\ajincal01,C,7/2,248,May 6 1988,fr,5,
+33,Ryan Anderson\anderry01,PF,6/10,240,May 6 1988,us,7,University of California
+3,Omer Asik\asikom01,C,7/1,255,July 4 1986,tr,5,
+8,Luke Babbitt\babbilu01,SF,6/9,225,June 20 1989,us,5,University of Nevada Reno
+30,Norris Cole\coleno01,PG,6/2,175,October 13 1988,us,4,Cleveland State University
+44,Dante Cunningham\cunnida01,SF,6/8,230,April 22 1987,us,6,Villanova University
+23,Anthony Davis\davisan02,C,6/10,253,March 11 1993,us,3,University of Kentucky
+31,Bryce Dejean-Jones\dejeabr01,SG,6/6,209,August 21 1992,us,R,University of Southern California University of Nevada Las Vegas Iowa State University
+16,Toney Douglas\douglto01,PG,6/2,195,March 16 1986,us,6,Auburn University Florida State University
+4,James Ennis\ennisja01,SF,6/7,210,July 1 1990,us,1,California State University Long Beach
+1,Tyreke Evans\evansty01,SG,6/6,220,September 19 1989,us,6,University of Memphis
+2,Tim Frazier\fraziti01,PG,6/1,170,November 1 1990,us,1,Pennsylvania State University
+32,Jimmer Fredette\fredeji01,SG,6/2,195,February 25 1989,us,4,Brigham Young University
+15,Alonzo Gee\geeal01,SF,6/6,225,May 29 1987,us,6,University of Alabama
+10,Eric Gordon\gordoer01,SG,6/4,215,December 25 1988,us,7,Indiana University
+25,Jordan Hamilton\hamiljo02,SF,6/7,220,October 6 1990,us,4,University of Texas at Austin
+11,Jrue Holiday\holidjr01,PG,6/4,205,June 12 1990,us,6,University of California Los Angeles
+0,Orlando Johnson\johnsor01,SG,6/5,220,March 11 1989,us,2,Loyola Marymount University University of California Santa Barbara
+5,Kendrick Perkins\perkike01,C,6/10,270,November 10 1984,us,12,
+2,Nate Robinson\robinna01,PG,5/9,180,May 31 1984,us,10,University of Washington
+4,Ish Smith\smithis01,PG,6/1,175,July 5 1988,us,5,Wake Forest University
+88,Nemanja Bjelica\bjeline01,PF,6/10,240,May 9 1988,rs,R,
+5,Gorgui Dieng\dienggo01,C,6/11,241,January 18 1990,sn,2,University of Louisville
+21,Kevin Garnett\garneke01,PF,6/11,240,May 19 1976,us,20,
+1,Tyus Jones\jonesty01,PG,6/2,195,May 10 1996,us,R,Duke University
+8,Zach LaVine\lavinza01,SG,6/5,189,March 10 1995,us,1,University of California Los Angeles
+23,Kevin Martin\martike02,SG,6/7,199,February 1 1983,us,11,Western Carolina University
+24,Andre Miller\millean02,PG,6/3,200,March 19 1976,us,16,University of Utah
+15,Shabazz Muhammad\muhamsh01,SF,6/6,223,November 13 1992,us,2,University of California Los Angeles
+33,Adreian Payne\paynead01,PF,6/10,237,February 19 1991,us,1,Michigan State University
+14,Nikola Pekovic\pekovni01,C,6/11,307,January 3 1986,me,5,
+12,Tayshaun Prince\princta01,SF,6/9,212,February 28 1980,us,13,University of Kentucky
+9,Ricky Rubio\rubiori01,PG,6/4,194,October 21 1990,es,4,
+10,Damjan Rudez\rudezda01,SF,6/10,228,June 17 1986,hr,1,
+4,Greg Smith\smithgr02,PF,6/10,250,January 8 1991,us,4,California State University Fresno
+32,Karl-Anthony Towns\townska01,C,7/1,244,November 15 1995,us,R,University of Kentucky
+22,Andrew Wiggins\wiggian01,SF,6/8,199,February 23 1995,ca,1,University of Kansas
+2,Eric Bledsoe\bledser01,PG,6/1,205,December 9 1989,us,5,University of Kentucky
+1,Devin Booker\bookede01,SG,6/6,206,October 30 1996,us,R,University of Kentucky
+41,Lorenzo Brown\brownlo01,PG,6/5,189,August 26 1990,us,2,North Carolina State University
+10,Chase Budinger\budinch01,SF,6/7,209,May 22 1988,us,6,University of Arizona
+4,Tyson Chandler\chandty01,C,7/1,240,October 2 1982,us,14,
+8,Bryce Cotton\cottobr01,PG,6/1,165,August 11 1992,us,1,Providence College
+20,Archie Goodwin\goodwar01,PG,6/5,200,August 17 1994,us,2,University of Kentucky
+43,Kris Humphries\humphkr01,PF,6/9,235,February 6 1985,us,11,University of Minnesota
+55,Cory Jefferson\jeffeco01,PF,6/9,218,December 26 1990,us,1,Baylor University
+23,John Jenkins\jenkijo01,SG,6/4,215,March 6 1991,us,3,Vanderbilt University
+0,Orlando Johnson\johnsor01,SG,6/5,220,March 11 1989,us,2,Loyola Marymount University University of California Santa Barbara
+3,Brandon Knight\knighbr03,SG,6/3,189,December 2 1991,us,4,University of Kentucky
+21,Alex Len\lenal01,C,7/1,260,June 16 1993,ua,2,University of Maryland
+30,Jon Leuer\leuerjo01,PF,6/10,228,May 14 1989,us,4,University of Wisconsin
+52,Jordan McRae\mcraejo01,PG,6/6,185,March 28 1991,us,R,University of Tennessee
+11,Markieff Morris\morrima02,PF,6/10,245,September 2 1989,us,4,University of Kansas
+25,Phil Pressey\pressph01,PG,5/11,175,February 17 1991,us,2,University of Missouri
+14,Ronnie Price\pricero01,PG,6/2,190,June 21 1983,us,10,Nicholls State University Utah Valley State College
+35,Mirza Teletovic\teletmi01,PF,6/9,242,September 18 1985,ba,3,
+17,P.J. Tucker\tuckepj01,SF,6/6,245,May 5 1985,us,4,University of Texas at Austin
+12,T.J. Warren\warretj01,SF,6/8,230,September 5 1993,us,1,North Carolina State University
+10,Sonny Weems\weemsso01,SG,6/6,205,July 8 1986,us,3,University of Arkansas
+15,Alan Williams\willial03,PF,6/8,260,January 28 1993,us,R,University of California Santa Barbara
+2,Brandon Bass\bassbr01,PF,6/8,250,April 30 1985,us,10,Louisiana State University
+28,Tarik Black\blackta01,C,6/9,250,November 22 1991,us,1,University of Memphis University of Kansas
+3,Anthony Brown\brownan02,SF,6/7,210,October 10 1992,us,R,Stanford University
+24,Kobe Bryant\bryanko01,SF,6/6,212,August 23 1978,us,19,
+6,Jordan Clarkson\clarkjo01,SG,6/5,194,June 7 1992,us,1,University of Tulsa University of Missouri
+17,Roy Hibbert\hibbero01,C,7/2,270,December 11 1986,us,7,Georgetown University
+9,Marcelo Huertas\huertma01,PG,6/3,200,May 25 1983,br,R,
+4,Ryan Kelly\kellyry01,PF,6/11,230,April 9 1991,us,2,Duke University
+7,Larry Nance\nancela02,PF,6/9,230,January 1 1993,us,R,University of Wyoming
+30,Julius Randle\randlju01,PF,6/9,250,November 29 1994,us,1,University of Kentucky
+1,D'Angelo Russell\russeda01,PG,6/5,195,February 23 1996,us,R,Ohio State University
+50,Robert Sacre\sacrero01,C,7/1,270,June 6 1989,us,3,Gonzaga University
+23,Lou Williams\willilo02,SG,6/1,175,October 27 1986,us,10,
+37,Metta World Peace\artesro01,SF,6/6,260,November 13 1979,us,15,St. John's University
+0,Nick Young\youngni01,SG,6/7,210,June 1 1985,us,8,University of Southern California
