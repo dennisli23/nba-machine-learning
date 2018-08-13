@@ -3,12 +3,12 @@ title: "NBA Data Science Project"
 author: "Dennis Li"
 date: "`r Sys.Date()`"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 
-##Intro {.tabset}
-The 2 main questions I hoped to answer that motivated me to do this project were:
+##Intro
+The 2 questions I hoped to answer that motivated me to do this project were:
 
 1. How well I could detect certain clusters of players (superstars, starters, role players, prospects etc.) from the 2017-18 regular season using dimensionality reduction and k-means cluster analysis
 2. How strong of a predictive model I could create to predict an NBA player's position (traditional PG/SG/SF/PF/C) based on per-36 stats,  height, weight etc. given that the NBA is transitioning to a more "positionless" league. Also would like to see how strong of a model I could make to predict a binary position classification (guard/wing, big)
@@ -345,26 +345,10 @@ This visual shows us that k = 2, 3, 4 and 5 all do a pretty good job at making d
 ```{r, fig.align = "center"}
 set.seed(999)
 
-#calculates within cluster variation
-# withinVariation <- function(k) {
-#   kmeans(nbaCluster[,-1], k, nstart = 25 )$tot.withinss #tot.withinss is the value we are extracting
-# }
-# 
-# #Consider values 1 through 10
-# kValues <- 1:10
-# 
-# # maps the value of K to the corresponding within-cluster variation value
-# withinSSvalues <- map_dbl(kValues, withinVariation)
-# 
-# plot(kValues, withinSSvalues,
-#        type="b", pch = 19, frame = TRUE, 
-#        xlab="Number of Clusters",
-#        ylab="Total Within-Clusters SS")
-
 fviz_nbclust(nbaCluster[,-1], kmeans, method = "wss", k.max = 10, linecolor = "blue", print.summary = TRUE)
 ```
 
-The elbow plot suggests that a value around k = 4 is a good (yet arbitrary) cut-off point. The subsequent decreases in the within-cluster sum of squares don't seem to be worth the risk of overfitting. This uses factoextra's build-in function but I provided code that does it manually as well.
+The elbow plot suggests that a value around k = 4 is a good (yet arbitrary) cut-off point. The subsequent decreases in the within-cluster sum of squares don't seem to be worth the risk of overfitting. This uses factoextra's built-in function.
 
 ####Optimal Clusters with Player Labels
 ```{r, fig.height = 8, fig.width = 10,fig.align = "center"}
@@ -374,7 +358,7 @@ rownames(nbaCluster) <- nbaCluster$Player
 fviz_cluster(optimalCluster, data = nbaCluster[,-c(1,48)], labelsize = 8, show.clust.cent = FALSE, main = "Clustering NBA Players by Skill Level")
 ```
 
-The clustering results show some interesting patterns in the data for the 2017-2018 regular season. Just from a rough visual analysis of where the players are placed, it appears that the first principal component (Dim 1, which explains 36.4% of the total variance) is a measure relating to __scoring prowess__ of the players. The second principal component (Dim 2, which explains 21.9% of the total variance) is a little less clear, but it seems that guards populate the top half of the plot while big men dominate the bottom half. The k-means algorithm does not take Position (or any categorical variable) into consideration so this is probably some sort of linear combination that represents __ball-handling ability__ and __3 point abiliity__.
+The clustering results show some interesting patterns in the data for the 2017-2018 regular season. Just from a rough visual analysis of where the players are placed, it appears that the first principal component (Dim 1, which explains 36.4% of the total variance) is a measure relating to __scoring prowess__ of the players. The second principal component (Dim 2, which explains 21.9% of the total variance) is a little less clear, but it seems that guards populate the top half of the plot while big men dominate the bottom half. The k-means algorithm does not take Position (or any categorical variable) into consideration so this is probably some measure of __ball-handling ability__ and __3 point abiliity__.
 
 Some big names pop up when examining the <span style="color:green"> green</span>. Most of the players here are superstars and all-star level players. The few exceptions that jump out are Rondae Hollis-Jefferson and TJ Warren (although he has proven to be a very effective scorer, but not much else). Some others, like Julius Randle and Brandon Ingram, may make that jump next year. Mitchell and Simmons both get the nod here. Lets call this cluster __"Star"__.
 
@@ -447,26 +431,30 @@ nba.test <- nba2[-i.train,]
 
 logistic1 <- multinom(Pos~., data = nba.train, maxit = 500, trace = T)
 
-#View most influential variables using caret package
-mostImportant <- varImp(logistic1)
-mostImportant$Variables <- row.names(mostImportant)
-mostImportant <- mostImportant[order(-mostImportant$Overall),]
-print(head(mostImportant))
 
 #Predictions on testing data
 logisticPreds1 <- predict(logistic1, type= "class", newdata = nba.test)
 #Measure accuracy of model using caret function
 logisticAccuracyMulti <- postResample(nba.test$Pos,logisticPreds1)[[1]]
-logisticAccuracyMulti
+logisticAccuracyMulti #0.8144144
+
 #Error rate using base R
 mean(nba.test$Pos != logisticPreds1)
 
 #Confusion matrix, diagonals are correct predictions
 test.classes <- logisticPreds1
 truth <- factor(nba.test$Pos)
+
+
+
+
+```
+```{r}
 table(test.classes, truth)
+```
 
 
+```{r, echo=T, results='hide' }
 #Cross validation to obtain a more comprehensive accuracy score of how the model will perform on independent, future data
 accuracyList <- c()
 cv <- 10
@@ -490,9 +478,9 @@ for(cv in seq(1:cv)) {
 }
 
 logisticCVaccuracy <- mean(accuracyList)
-logisticCVaccuracy
+logisticCVaccuracy #0.7993421
 ```
-
+The logistic model for multiclass prediction yielded a cross-validated accuracy score of 0.7993421.
 
 ####Random Forests for 5 Position Classification
 Random forest is a popular ensemble method which uses bagging (bootstrap aggregating) to prevent overfitting in CART (classification and regression trees), but at each split only considers a certain subset of predictors to reduce multicollinearity. In other words, random forests work by reducing the variance of fully grown decision trees. Random Forests/trees are also very easy to interpret compared to other "black box" methods like SVM's.
@@ -507,26 +495,32 @@ forest1 <- randomForest(Pos ~ .,
 pred1 = as.vector(predict(forest1, newdata = nba.test, type = "class"))
 #Confusion matrix, diagonals are correct predictions
 pred1 <- factor(pred1, levels=c("PG", "SG", "SF", "PF", "C") )
-test.classes <- pred1
-truth <- factor(nba.test$Pos)
-table(test.classes, truth)
 
 randomForestAccuracyMulti <- 1 - mean(nba.test$Pos != pred1)
-randomForestAccuracyMulti
+randomForestAccuracyMulti #0.8288288
 
-
-#try mtry = 5. sqrt(p) is usually a benchmark, where p is the # of predictors (25)
-forest2 <- randomForest(Pos ~ ., 
-              data = nba.train, mtry = 5, importance = TRUE)
-pred2 = as.vector(predict(forest2, newdata = nba.test, type = "class"))
-#Confusion matrix, diagonals are correct predictions
-pred2 <- factor(pred2, levels=c("PG", "SG", "SF", "PF", "C") )
-test.classes <- pred2
+test.classes <- pred1
 truth <- factor(nba.test$Pos)
-table(test.classes, truth)
 
-randomForestAccuracy2 <- 1 - mean(nba.test$Pos != pred2)
-randomForestAccuracy2
+```
+```{r}
+table(test.classes, truth)
+```
+
+
+```{r, echo=T, results='hide'}
+#try mtry = 5. sqrt(p) is usually a benchmark, where p is the # of predictors (25)
+#forest2 <- randomForest(Pos ~ ., data = nba.train, mtry = 5, importance = TRUE)
+#pred2 = as.vector(predict(forest2, newdata = nba.test, type = "class"))
+
+#Confusion matrix, diagonals are correct predictions
+#pred2 <- factor(pred2, levels=c("PG", "SG", "SF", "PF", "C") )
+#test.classes <- pred2
+#truth <- factor(nba.test$Pos)
+#table(test.classes, truth)
+
+#randomForestAccuracy2 <- 1 - mean(nba.test$Pos != pred2)
+#randomForestAccuracy2 #0.8234234
 
 
 #Cross validation to obtain a more comprehensive accuracy score of how the model will perform on independent, future data
@@ -552,9 +546,9 @@ for(cv in seq(1:cv)) {
 }
 
 randomForestCVaccuracy <- mean(accuracyList)
-randomForestCVaccuracy
+randomForestCVaccuracy #0.8171053
 ```
-
+The random forest model for multiclass prediction yielded a cross-validated accuracy score of 0.8171053, higher than the logistic model's cross-validated score.
 
 ####Support Vector Machines for 5 Position Classification
 The e1071 package uses the one vs. one method for multiclass classification with support vector machines.
@@ -564,13 +558,19 @@ svmModel <- svm(Pos~., data =  nba.train)
 svmPred <- predict(svmModel, newdata=nba.test)
 #Confusion matrix, diagonals are correct predictions
 svmPred <- factor(svmPred, levels=c("PG", "SG", "SF", "PF", "C") )
-test.classes <- svmPred
-truth <- factor(nba.test$Pos)
-table(test.classes, truth)
 
 svmMultiAccuracy <- 1 - mean(nba.test$Pos != svmPred)
-svmMultiAccuracy
+svmMultiAccuracy #0.8126126
 
+test.classes <- svmPred
+truth <- factor(nba.test$Pos)
+```
+
+```{r}
+table(test.classes, truth)
+```
+
+```{r, echo=T, results='hide'}
 #Cross validation to obtain a more comprehensive accuracy score of how the model will perform on independent, future data
 accuracyList <- c()
 cv <- 10
@@ -594,9 +594,9 @@ for(cv in seq(1:cv)) {
 }
 
 svmCVaccuracy <- mean(accuracyList)
-svmCVaccuracy
+svmCVaccuracy #0.7875
 ```
-
+The SVM model for multiclass prediction yielded a cross-validated accuracy score of 0.7875, which is the lowest among the three multiclass models.
 
 ####Logistic Regression for 2 Position Classification
 ```{r, echo=T, results='hide'}
@@ -627,16 +627,20 @@ glm.pred <- ifelse(preds > 0.5, "Guard/Wing", "Big")
 
 #Accuracy on test data
 binarylogisticAccuracy <- 1 - mean(nba.test$Pos2 != glm.pred)
-binarylogisticAccuracy
+binarylogisticAccuracy #0.9459459
 #Error rate using base R
 mean(nba.test$Pos2 != glm.pred)
 
 #Confusion matrix, diagonals are correct predictions
 test.classes <- glm.pred
 truth <- factor(nba.test$Pos2)
+```
+
+```{r}
 table(test.classes, truth)
+```
 
-
+```{r, echo=T, results='hide'}
 #Cross validation to obtain a more comprehensive accuracy score of how the model will perform on independent, future data
 accuracyList <- c()
 cv <- 10
@@ -662,30 +666,34 @@ for(cv in seq(1:cv)) {
 }
 
 binarylogisticCVaccuracy <- mean(accuracyList)
-binarylogisticCVaccuracy
+binarylogisticCVaccuracy #0.9467105
 ```
-
+The logistic model for binary prediction yielded a cross-validated accuracy score of 0.9467105.
 
 ####Random Forests for 2 Position Classification
 ```{r, echo=T, results='hide'}
 set.seed(123)
 
 tuneRF(nba.train[,-25], nba.train$Pos2)
-#mtry = 4 using elbow rule
+#mtry = 8 has lowest out of bag error rate estimate
 
 forest1 <- randomForest(Pos2 ~ ., 
-              data = nba.train, mtry = 4, importance = TRUE)
+              data = nba.train, mtry = 8, importance = TRUE)
 pred1 = as.vector(predict(forest1, newdata = nba.test, type = "class"))
+
+randomForestBinaryAccuracy <- 1 - mean(nba.test$Pos2 != pred1)
+randomForestBinaryAccuracy #0.9531532
+
 #Confusion matrix, diagonals are correct predictions
 test.classes <- pred1
 truth <- factor(nba.test$Pos2)
+```
+
+```{r}
 table(test.classes, truth)
+```
 
-randomForestBinaryAccuracy <- 1 - mean(nba.test$Pos2 != pred1)
-randomForestBinaryAccuracy
-
-
-
+```{r, echo=T, results='hide'}
 #Cross validation to obtain a more comprehensive accuracy score of how the model will perform on independent, future data
 accuracyList <- c()
 cv <- 10
@@ -709,23 +717,29 @@ for(cv in seq(1:cv)) {
 }
 
 randomForestBinaryCVaccuracy <- mean(accuracyList)
-randomForestBinaryCVaccuracy
+randomForestBinaryCVaccuracy #0.9585526
 ```
-
+The random forest model for binary prediction yielded a cross-validated accuracy score of 0.9585526, higher than the logistic model for binary prediction (0.9467105).
 
 ####Support Vector Machines for 2 Position Classification
 ```{r, echo=T, results='hide'}
 set.seed(123)
 svmModel1 <- svm(Pos2~., data =  nba.train)
 svmPred <- predict(svmModel1, newdata=nba.test)
+
+svmBinaryAccuracy <- 1 - mean(nba.test$Pos2 != svmPred)
+svmBinaryAccuracy #0.9531532
+
 #Confusion matrix, diagonals are correct predictions
 test.classes <- svmPred
 truth <- factor(nba.test$Pos2)
+```
+
+```{r}
 table(test.classes, truth)
+```
 
-svmBinaryAccuracy <- 1 - mean(nba.test$Pos2 != svmPred)
-svmBinaryAccuracy
-
+```{r, echo=T, results='hide'}
 #Cross validation to obtain a more comprehensive accuracy score of how the model will perform on independent, future data
 accuracyList <- c()
 cv <- 10
@@ -749,8 +763,9 @@ for(cv in seq(1:cv)) {
 }
 
 svmBinaryCVaccuracy <- mean(accuracyList)
-svmBinaryCVaccuracy
+svmBinaryCVaccuracy #0.95
 ```
+The SVM model for binary prediction yielded a cross-validated accuracy score of 0.95, which finishes between the random forest and logistic models.
 
 ####Model Cross-Validated Accuracy Comparisons
 ```{r}
@@ -767,11 +782,11 @@ names(multinomialAccuracies)[2] <- "ClassificationType"
 
 ggplot(multinomialAccuracies, aes(x = Model, y = TenFoldModelAccuracy, fill = ClassificationType))+
        geom_bar(stat = "identity", position = "dodge") + theme_classic() +
-  ggtitle("CV Model Accuracies For 5-Position and 2-Position Classification")
+  ggtitle("Cross-Validated Accuracy Estimates for Position Prediction Models")
 
 ```
 
 ##Conclusion
-Formatting, fix write ups, try without height/weight (36 and percentage stats)
-
+For the k-means cluster analysis, it would be interesting to see if I could produce more clusters (without overlapping) to represent more specific player archetypes such as 3 and D, back to the basket big man, and defensive minded guard. This would likely require more data as well as more attributes to distinguish the principal components.
+For both multiclass classification and binary classification, the random forest models yielded the highest accuracy score (number of correct classifications/total inputs) at 0.8171053 and 0.9585526 for multiclass and binary, respectively. For future renditions of this project, I'll look into collecting more historical data beyond these 4 seasons and considering different combinations of variables, which could include eliminating height/weight.  It'll be interesting to see if it becomes more and more difficult to predict the 5 positions as the NBA continues to evolve, and if the NBA will ever officially adopt a less segregated position classification.
 
